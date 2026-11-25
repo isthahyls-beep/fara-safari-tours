@@ -1,0 +1,303 @@
+
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Fara Safari Tours: safari, Marafa Canyon, Gede Ruins and Kenyan coast experiences.">
+  <title>Fara Safari Tours | Safari in Kenya</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+<header class="header">
+  <a class="brand" href="#home">
+    <img src="LOGO.jpeg" alt="Fara Safari Tours">
+    <span>Fara Safari Tours</span>
+  </a>
+  <button id="menuToggle" class="menu-toggle" aria-label="Open navigation">☰</button>
+  <nav id="mainNav">
+    <a href="#home" data-i18n="navHome">Home</a>
+    <a href="#destinations" data-i18n="navDest">Destinazioni</a>
+    <a href="#packages" data-i18n="navPackages">Safari ed esperienze</a>
+    <a href="#gallery" data-i18n="navGallery">Galleria</a>
+    <a href="#about" data-i18n="navAbout">Chi siamo</a>
+    <a href="#contact" data-i18n="navContact">Contatti</a>
+  </nav>
+  <div class="languages">
+    <button class="lang-btn active" data-lang="it">🇮🇹 IT</button>
+    <button class="lang-btn" data-lang="en">🇬🇧 EN</button>
+  </div>
+</header>
+
+<main>
+<section class="hero" id="home">
+  <div class="hero-content">
+    <p class="eyebrow" data-i18n="heroSmall">LA TUA AVVENTURA IN KENYA</p>
+    <h1 data-i18n="heroTitle">Scopri la magia dell'Africa</h1>
+    <p data-i18n="heroText">Safari indimenticabili, fauna selvatica e splendide esperienze sulla costa del Kenya.</p>
+    <a class="btn" href="#packages" data-i18n="heroButton">Scopri i nostri safari</a>
+  </div>
+</section>
+
+<section class="section" id="destinations">
+  <div class="section-heading">
+    <p class="eyebrow" data-i18n="destSmall">ESPLORA IL KENYA</p>
+    <h2 data-i18n="destTitle">Destinazioni da scoprire</h2>
+  </div>
+  <div class="destination-grid">
+    <article class="destination">
+      <img src="Tsavo East.jpeg" alt="Tsavo East" loading="lazy">
+      <h3>Tsavo East</h3>
+      <p data-i18n="tsavoText">Paesaggi selvaggi e fauna africana.</p>
+    </article>
+    <article class="destination">
+      <img src="massai mara 2.jpeg" alt="Maasai Mara" loading="lazy">
+      <h3>Maasai Mara</h3>
+      <p data-i18n="maraText">Una delle riserve più famose dell'Africa.</p>
+    </article>
+    <article class="destination">
+      <img src="Watamu beach.jpeg" alt="Watamu beach" loading="lazy">
+      <h3>Watamu</h3>
+      <p data-i18n="watamuText">Spiagge di sabbia bianca e mare turchese.</p>
+    </article>
+    <article class="destination">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/0/08/Robinson_Island_Kenya.jpg" alt="Robinson Island, Kenya" loading="lazy">
+      <h3>Robinson Island</h3>
+      <p data-i18n="islandText">Acque limpide e paesaggi costieri.</p>
+    </article>
+    <article class="destination">
+      <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Marafa_Hell%27s_Kitchen_Malindi_Kenya_1.jpg" alt="Marafa Canyon" loading="lazy">
+      <h3>Marafa Grand Canyon</h3>
+      <p data-i18n="marafaText">Le spettacolari formazioni rocciose di Marafa.</p>
+    </article>
+    <article class="destination">
+      <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Gede_Gedi_Ruins_01.jpg" alt="Gede Ruins" loading="lazy">
+      <h3>Gede Ruins</h3>
+      <p data-i18n="gedeText">Antiche rovine storiche sulla costa del Kenya.</p>
+    </article>
+  </div>
+</section>
+
+<section class="section packages-section" id="packages">
+  <div class="section-heading">
+    <p class="eyebrow" data-i18n="packageSmall">SCEGLI LA TUA AVVENTURA</p>
+    <h2 data-i18n="packageTitle">Safari ed esperienze</h2>
+    <p data-i18n="packageIntro">Scopri le nostre offerte e contattaci per organizzare il tuo viaggio.</p>
+  </div>
+
+  <div class="package-grid">
+    <article class="package-card">
+      <img src="Tsavo East.jpeg" alt="Tsavo East safari" loading="lazy">
+      <div class="package-content">
+        <span class="tag" data-i18n="twoDays">2 giorni · 1 notte</span>
+        <h3 data-i18n="p1Title">Safari Tsavo East con lodge</h3>
+        <p data-i18n="p1Desc">Safari nella natura con pernottamento in lodge.</p>
+        <p class="price">€290 <small data-i18n="perPerson">a persona</small></p>
+        <p class="included" data-i18n="included">Inclusi: trasporto, pasti, alloggio e ingressi ai parchi.</p>
+        <button class="btn enquire" data-package="p1" data-i18n="enquire">Richiedi informazioni</button>
+      </div>
+    </article>
+
+    <article class="package-card">
+      <img src="Tsavo East2.jpeg" alt="Tsavo East tent safari" loading="lazy">
+      <div class="package-content">
+        <span class="tag" data-i18n="twoDays">2 giorni · 1 notte</span>
+        <h3 data-i18n="p2Title">Safari Tsavo East in tenda</h3>
+        <p data-i18n="p2Desc">Un'avventura nella natura con pernottamento in tenda.</p>
+        <p class="price">€320 <small data-i18n="perPerson">a persona</small></p>
+        <p class="included" data-i18n="included">Inclusi: trasporto, pasti, alloggio e ingressi ai parchi.</p>
+        <button class="btn enquire" data-package="p2" data-i18n="enquire">Richiedi informazioni</button>
+      </div>
+    </article>
+
+    <article class="package-card">
+      <img src="Tsavo East4.jpeg" alt="Tsavo East and Taita Hills" loading="lazy">
+      <div class="package-content">
+        <span class="tag" data-i18n="threeDays">3 giorni · 2 notti</span>
+        <h3 data-i18n="p3Title">Tsavo East e Taita Hills</h3>
+        <p data-i18n="p3Desc">Un safari di più giorni tra paesaggi e fauna selvatica.</p>
+        <p class="price">€600 <small data-i18n="perPerson">a persona</small></p>
+        <p class="included" data-i18n="included">Inclusi: trasporto, pasti, alloggio e ingressi ai parchi.</p>
+        <button class="btn enquire" data-package="p3" data-i18n="enquire">Richiedi informazioni</button>
+      </div>
+    </article>
+
+    <article class="package-card">
+      <img src="Watamu marine park.jpeg" alt="Blue Safari by boat" loading="lazy">
+      <div class="package-content">
+        <span class="tag" data-i18n="coast">Esperienza sulla costa</span>
+        <h3 data-i18n="p4Title">Safari Blu in barca</h3>
+        <p data-i18n="p4Desc">Un'escursione in barca alla scoperta del mare.</p>
+        <p class="price">€80 <small data-i18n="perPerson">a persona</small></p>
+        <button class="btn enquire" data-package="p4" data-i18n="enquire">Richiedi informazioni</button>
+      </div>
+    </article>
+
+    <article class="package-card">
+      <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Gede_Gedi_Ruins_01.jpg" alt="Gede Ruins" loading="lazy">
+      <div class="package-content">
+        <span class="tag" data-i18n="culture">Cultura e storia</span>
+        <h3 data-i18n="p5Title">Rovine di Gede</h3>
+        <p data-i18n="p5Desc">Visita le antiche rovine storiche di Gede.</p>
+        <p class="price">€25 <small data-i18n="perPerson">a persona</small></p>
+        <button class="btn enquire" data-package="p5" data-i18n="enquire">Richiedi informazioni</button>
+      </div>
+    </article>
+
+    <article class="package-card">
+      <img src="Watamu sardenia.jpeg" alt="Kenyan coastal canoe experience" loading="lazy">
+      <div class="package-content">
+        <span class="tag" data-i18n="coast">Esperienza sulla costa</span>
+        <h3 data-i18n="p6Title">Crab Shack: aperitivo e canoa</h3>
+        <p data-i18n="p6Desc">Un aperitivo al Crab Shack con un giro in canoa.</p>
+        <p class="price">€25 <small data-i18n="perPerson">a persona</small></p>
+        <button class="btn enquire" data-package="p6" data-i18n="enquire">Richiedi informazioni</button>
+      </div>
+    </article>
+
+    <article class="package-card">
+      <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Marafa_Hell%27s_Kitchen_Malindi_Kenya_1.jpg" alt="Marafa Canyon" loading="lazy">
+      <div class="package-content">
+        <span class="tag" data-i18n="dayTrip">Escursione giornaliera</span>
+        <h3 data-i18n="p7Title">Tour di Malindi e Marafa Grand Canyon</h3>
+        <p data-i18n="p7Desc">Scopri Malindi e le spettacolari formazioni di Marafa.</p>
+        <p class="price">€60 <small data-i18n="perPerson">a persona</small></p>
+        <button class="btn enquire" data-package="p7" data-i18n="enquire">Richiedi informazioni</button>
+      </div>
+    </article>
+
+    <article class="package-card">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/0/08/Robinson_Island_Kenya.jpg" alt="Robinson Island" loading="lazy">
+      <div class="package-content">
+        <span class="tag" data-i18n="dayTrip">Escursione giornaliera</span>
+        <h3 data-i18n="p8Title">Golden Beach, Robinson Island e Marafa Canyon</h3>
+        <p data-i18n="p8Desc">Un'esperienza tra spiagge, isole e canyon.</p>
+        <p class="price">€80 <small data-i18n="perPerson">a persona</small></p>
+        <button class="btn enquire" data-package="p8" data-i18n="enquire">Richiedi informazioni</button>
+      </div>
+    </article>
+  </div>
+  <p class="price-note" data-i18n="priceNote">Prezzi a persona. Contattaci per confermare disponibilità e dettagli delle esperienze.</p>
+</section>
+
+<section class="section" id="gallery">
+  <div class="section-heading">
+    <p class="eyebrow" data-i18n="gallerySmall">MOMENTI DA RICORDARE</p>
+    <h2 data-i18n="galleryTitle">La bellezza del Kenya</h2>
+  </div>
+  <div class="gallery-grid">
+    <img src="Tsavo.jpeg" alt="Tsavo landscape" loading="lazy">
+    <img src="Tsavo2.jpeg" alt="Kenya nature" loading="lazy">
+    <img src="Tsavo3.jpeg" alt="Safari landscape" loading="lazy">
+    <img src="Tsavo2.jpeg" alt="Wildlife landscape" loading="lazy">
+    <img src="massai mara.jpeg" alt="Maasai Mara" loading="lazy">
+    <img src="massai mara.jpeg" alt="Kenyan wildlife" loading="lazy">
+    <img src="Watamu beach.jpeg" alt="Watamu beach" loading="lazy">
+    <img src="Watamu marine park.jpeg" alt="Marine park" loading="lazy">
+    <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Marafa_Hell%27s_Kitchen_Malindi_Kenya_1.jpg" alt="Marafa Canyon" loading="lazy">
+    <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Gede_Gedi_Ruins_01.jpg" alt="Gede Ruins" loading="lazy">
+  </div>
+
+  <div class="video-grid">
+    <div>
+      <h3 data-i18n="video1">La costa del Kenya</h3>
+      <video controls preload="metadata">
+        <source src="Marine.mp4" type="video/mp4">
+      </video>
+    </div>
+    <div>
+      <h3 data-i18n="video2">Esplora la natura</h3>
+      <video controls preload="metadata">
+        <source src="Mangroove.mp4" type="video/mp4">
+      </video>
+    </div>
+  </div>
+</section>
+
+<section class="about" id="about">
+  <img src="Tsavo East3.jpeg" alt="Kenyan safari scenery" loading="lazy">
+  <div>
+    <p class="eyebrow" data-i18n="aboutSmall">BENVENUTI IN KENYA</p>
+    <h2 data-i18n="aboutTitle">La tua avventura, il nostro impegno</h2>
+    <p data-i18n="aboutText">Scopri la bellezza del Kenya, dai safari nella savana alle esperienze sulla costa. Contattaci per organizzare il tuo viaggio.</p>
+    <a class="btn" href="#contact" data-i18n="contactUs">Contattaci</a>
+  </div>
+</section>
+
+<section class="section" id="contact">
+  <div class="section-heading">
+    <p class="eyebrow" data-i18n="contactSmall">ORGANIZZA IL TUO VIAGGIO</p>
+    <h2 data-i18n="contactTitle">Contattaci</h2>
+    <p data-i18n="contactIntro">Dicci quale esperienza ti interessa.</p>
+  </div>
+  <div class="contact-layout">
+    <div class="contact-details">
+      <h3 data-i18n="contactDetails">I nostri contatti</h3>
+      <p><strong>Email:</strong><br><a href="mailto:itsemrefara289@gmail.com">itsemrefara289@gmail.com</a></p>
+      <p><strong>WhatsApp 1:</strong><br><a href="https://wa.me/254114079110" target="_blank" rel="noopener">+254 114 079110</a></p>
+      <p><strong>WhatsApp 2:</strong><br><a href="https://wa.me/254101603996" target="_blank" rel="noopener">+254 101 603996</a></p>
+    </div>
+
+    <form id="enquiryForm">
+      <label for="customerName" data-i18n="nameLabel">Il tuo nome</label>
+      <input id="customerName" required>
+
+      <label for="customerEmail" data-i18n="emailLabel">Email (facoltativa)</label>
+      <input id="customerEmail" type="email">
+
+      <label for="customerLanguage" data-i18n="languageLabel">Lingua</label>
+      <select id="customerLanguage">
+        <option value="it">Italiano</option>
+        <option value="en">English</option>
+      </select>
+
+      <label for="selectedPackage" data-i18n="packageLabel">Safari o esperienza</label>
+      <select id="selectedPackage" required>
+        <option value="" data-i18n="choose">Seleziona un'esperienza</option>
+        <option value="p1" data-i18n="p1Title">Safari Tsavo East con lodge</option>
+        <option value="p2" data-i18n="p2Title">Safari Tsavo East in tenda</option>
+        <option value="p3" data-i18n="p3Title">Tsavo East e Taita Hills</option>
+        <option value="p4" data-i18n="p4Title">Safari Blu in barca</option>
+        <option value="p5" data-i18n="p5Title">Rovine di Gede</option>
+        <option value="p6" data-i18n="p6Title">Crab Shack: aperitivo e canoa</option>
+        <option value="p7" data-i18n="p7Title">Tour di Malindi e Marafa Grand Canyon</option>
+        <option value="p8" data-i18n="p8Title">Golden Beach, Robinson Island e Marafa Canyon</option>
+        <option value="custom" data-i18n="custom">Viaggio personalizzato</option>
+      </select>
+
+      <label for="travelDate" data-i18n="dateLabel">Data prevista (facoltativa)</label>
+      <input id="travelDate" type="date">
+
+      <label for="customerMessage" data-i18n="messageLabel">Il tuo messaggio</label>
+      <textarea id="customerMessage" rows="4"></textarea>
+
+      <label for="contactChoice" data-i18n="whatsappLabel">Invia la richiesta a</label>
+      <select id="contactChoice">
+        <option value="1">WhatsApp 1 (+254 114 079110)</option>
+        <option value="2">WhatsApp 2 (+254 101 603996)</option>
+      </select>
+
+      <button class="btn" type="submit" data-i18n="sendButton">Invia richiesta su WhatsApp</button>
+      <p class="note" data-i18n="whatsappNote">WhatsApp si aprirà con il messaggio preparato. Premi Invia per trasmetterlo.</p>
+    </form>
+  </div>
+</section>
+
+<section class="credits">
+  <h3 data-i18n="creditsTitle">Crediti delle immagini online</h3>
+  <p>Marafa Canyon: <a href="https://commons.wikimedia.org/wiki/File:Marafa_Hell%27s_Kitchen_Malindi_Kenya_1.jpg" target="_blank" rel="noopener">Wikimedia Commons — licenza CC BY-SA 4.0</a>.</p>
+  <p>Gede Ruins: <a href="https://commons.wikimedia.org/wiki/File:Gede_Gedi_Ruins_01.jpg" target="_blank" rel="noopener">Wikimedia Commons — CC0</a>.</p>
+  <p>Robinson Island: <a href="https://commons.wikimedia.org/wiki/File:Robinson_Island_Kenya.jpg" target="_blank" rel="noopener">Wikimedia Commons</a>. Check the file page for its current licence before publishing.</p>
+</section>
+</main>
+
+<footer class="footer">
+  <strong>Fara Safari Tours</strong>
+  <p data-i18n="footerText">Scopri i safari e la costa del Kenya.</p>
+  <p>itsemrefara289@gmail.com</p>
+  <p>© <span id="year"></span> Fara Safari Tours</p>
+</footer>
+<a class="floating-whatsapp" href="https://wa.me/254114079110" target="_blank" rel="noopener">WhatsApp</a>
+</body>
+</html>
